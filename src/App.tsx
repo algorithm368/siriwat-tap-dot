@@ -235,39 +235,39 @@ export default function TapComboGame() {
           ))}
         </div>
         
-        <div className="text-center space-y-6 z-10">
+        <div className="text-center space-y-4 sm:space-y-6 z-10 px-2">
           <div className="animate-bounce">
-            <h1 className="text-5xl font-bold bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent mb-4">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent mb-2 sm:mb-4">
               🌸 Tap Rush 🌸
             </h1>
           </div>
-          <p className="text-xl text-gray-600 mb-8 animate-pulse">กดปุ่มให้ทันก่อนหมดเวลา! 💫</p>
+          <p className="text-base sm:text-lg md:text-xl text-gray-600 mb-4 sm:mb-8 animate-pulse px-4">กดปุ่มให้ทันก่อนหมดเวลา! 💫</p>
           
-          <div className="bg-white/70 backdrop-blur-lg rounded-3xl p-6 mb-8 border-2 border-white/60 shadow-xl transform hover:scale-105 transition-all duration-300">
-            <h2 className="text-2xl font-semibold text-gray-700 mb-4">🎮 วิธีเล่น</h2>
-            <ul className="text-left text-gray-600 space-y-3">
+          <div className="bg-white/70 backdrop-blur-lg rounded-2xl sm:rounded-3xl p-4 sm:p-6 mb-4 sm:mb-8 border-2 border-white/60 shadow-xl transform hover:scale-105 transition-all duration-300 mx-2">
+            <h2 className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-700 mb-3 sm:mb-4">🎮 วิธีเล่น</h2>
+            <ul className="text-left text-sm sm:text-base text-gray-600 space-y-2 sm:space-y-3">
               <li className="flex items-center">
-                <span className="mr-2">🎯</span>
-                กดปุ่มน่ารักๆ ก่อนที่จะหมดเวลา
+                <span className="mr-2 text-base sm:text-lg">🎯</span>
+                <span>กดปุ่มน่ารักๆ ก่อนที่จะหมดเวลา</span>
               </li>
               <li className="flex items-center">
-                <span className="mr-2">🔥</span>
-                ยิ่งกด combo ติดต่อกันยิ่งได้แต้มเยอะ
+                <span className="mr-2 text-base sm:text-lg">🔥</span>
+                <span>ยิ่งกด combo ติดต่อกันยิ่งได้แต้มเยอะ</span>
               </li>
               <li className="flex items-center">
-                <span className="mr-2">💔</span>
-                พลาดปุ่มจะเสียชีวิตและรีเซ็ต combo
+                <span className="mr-2 text-base sm:text-lg">💔</span>
+                <span>พลาดปุ่มจะเสียชีวิตและรีเซ็ต combo</span>
               </li>
               <li className="flex items-center">
-                <span className="mr-2">⚡</span>
-                เกมจะเร็วขึ้นเรื่อยๆ
+                <span className="mr-2 text-base sm:text-lg">⚡</span>
+                <span>เกมจะเร็วขึ้นเรื่อยๆ</span>
               </li>
             </ul>
           </div>
           
           <button
             onClick={startGame}
-            className="bg-gradient-to-r from-pink-400 via-purple-400 to-blue-400 hover:from-pink-500 hover:via-purple-500 hover:to-blue-500 text-white font-bold py-5 px-10 rounded-3xl text-2xl shadow-xl transform hover:scale-110 transition-all duration-300 animate-pulse border-4 border-white/50"
+            className="bg-gradient-to-r from-pink-400 via-purple-400 to-blue-400 hover:from-pink-500 hover:via-purple-500 hover:to-blue-500 text-white font-bold py-3 sm:py-4 md:py-5 px-6 sm:px-8 md:px-10 rounded-2xl sm:rounded-3xl text-lg sm:text-xl md:text-2xl shadow-xl transform hover:scale-110 transition-all duration-300 animate-pulse border-4 border-white/50 mx-4"
           >
             🚀 เริ่มเกม 🚀
           </button>
@@ -307,40 +307,40 @@ export default function TapComboGame() {
           ))}
         </div>
         
-        <div className="text-center space-y-6 z-10">
+        <div className="text-center space-y-4 sm:space-y-6 z-10 px-4">
           <div className="animate-bounce">
-            <h1 className="text-5xl font-bold text-red-400 mb-4">😭 Game Over! 😭</h1>
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-red-400 mb-2 sm:mb-4">😭 Game Over! 😭</h1>
           </div>
           
-          <div className="bg-white/70 backdrop-blur-lg rounded-3xl p-8 border-2 border-white/60 shadow-2xl transform hover:scale-105 transition-all duration-300">
-            <div className="space-y-6">
-              <div className="text-3xl font-bold text-gray-700 animate-pulse">🎯 คะแนนสุดท้าย</div>
-              <div className="text-6xl font-bold bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent animate-bounce">
+          <div className="bg-white/70 backdrop-blur-lg rounded-2xl sm:rounded-3xl p-4 sm:p-6 md:p-8 border-2 border-white/60 shadow-2xl transform hover:scale-105 transition-all duration-300 mx-2">
+            <div className="space-y-4 sm:space-y-6">
+              <div className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-700 animate-pulse">🎯 คะแนนสุดท้าย</div>
+              <div className="text-3xl sm:text-4xl md:text-6xl font-bold bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent animate-bounce">
                 {score.toLocaleString()}
               </div>
-              <div className="grid grid-cols-2 gap-4 text-lg text-gray-600">
+              <div className="grid grid-cols-2 gap-2 sm:gap-4 text-sm sm:text-base md:text-lg text-gray-600">
                 <div className="flex items-center justify-center">
-                  <span className="mr-2">🏆</span>
-                  Level: {level}
+                  <span className="mr-1 sm:mr-2 text-base sm:text-lg">🏆</span>
+                  <span>Level: {level}</span>
                 </div>
                 <div className="flex items-center justify-center">
-                  <span className="mr-2">🔥</span>
-                  Max Combo: {combo}
+                  <span className="mr-1 sm:mr-2 text-base sm:text-lg">🔥</span>
+                  <span>Max Combo: {combo}</span>
                 </div>
               </div>
             </div>
           </div>
           
-          <div className="space-y-4">
+          <div className="space-y-3 sm:space-y-4">
             <button
               onClick={startGame}
-              className="bg-gradient-to-r from-green-400 via-blue-400 to-purple-400 hover:from-green-500 hover:via-blue-500 hover:to-purple-500 text-white font-bold py-4 px-8 rounded-2xl text-xl shadow-xl transform hover:scale-110 transition-all duration-300 border-4 border-white/50"
+              className="bg-gradient-to-r from-green-400 via-blue-400 to-purple-400 hover:from-green-500 hover:via-blue-500 hover:to-purple-500 text-white font-bold py-3 sm:py-4 px-6 sm:px-8 rounded-xl sm:rounded-2xl text-base sm:text-lg md:text-xl shadow-xl transform hover:scale-110 transition-all duration-300 border-4 border-white/50"
             >
               💪 เล่นอีกครั้ง 💪
             </button>
             <button
               onClick={resetGame}
-              className="bg-gradient-to-r from-gray-400 to-gray-500 hover:from-gray-500 hover:to-gray-600 text-white font-bold py-4 px-8 rounded-2xl text-xl shadow-xl transform hover:scale-110 transition-all duration-300 border-4 border-white/50"
+              className="bg-gradient-to-r from-gray-400 to-gray-500 hover:from-gray-500 hover:to-gray-600 text-white font-bold py-3 sm:py-4 px-6 sm:px-8 rounded-xl sm:rounded-2xl text-base sm:text-lg md:text-xl shadow-xl transform hover:scale-110 transition-all duration-300 border-4 border-white/50"
             >
               🏠 กลับหน้าหลัก 🏠
             </button>
@@ -381,34 +381,34 @@ export default function TapComboGame() {
       </div>
 
       {/* Header */}
-      <div className="absolute top-0 left-0 right-0 z-10 bg-white/70 backdrop-blur-lg border-b-2 border-white/60 p-4 shadow-lg">
+      <div className="absolute top-0 left-0 right-0 z-10 bg-white/70 backdrop-blur-lg border-b-2 border-white/60 p-3 sm:p-4 shadow-lg">
         <div className="flex justify-between items-center">
-          <div className="text-xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+          <div className="text-base sm:text-lg md:text-xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
             💎 {score.toLocaleString()}
           </div>
-          <div className="text-xl font-bold bg-gradient-to-r from-green-600 to-blue-600 bg-clip-text text-transparent">
+          <div className="text-base sm:text-lg md:text-xl font-bold bg-gradient-to-r from-green-600 to-blue-600 bg-clip-text text-transparent">
             🏆 Level {level}
           </div>
         </div>
         
-        <div className="flex justify-between items-center mt-3">
-          <div className="flex space-x-2">
+        <div className="flex justify-between items-center mt-2 sm:mt-3">
+          <div className="flex space-x-1 sm:space-x-2">
             {[...Array(3)].map((_, i) => (
               <div
                 key={i}
-                className={`w-8 h-8 rounded-full border-2 border-white flex items-center justify-center transform transition-all duration-500 ${
+                className={`w-6 h-6 sm:w-8 sm:h-8 rounded-full border-2 border-white flex items-center justify-center transform transition-all duration-500 ${
                   i < lives 
                     ? 'bg-gradient-to-br from-red-300 to-pink-400' 
                     : 'bg-gray-200 scale-90'
                 }`}
               >
-                {i < lives ? '💖' : '🤍'}
+                <span className="text-xs sm:text-base">{i < lives ? '💖' : '🤍'}</span>
               </div>
             ))}
           </div>
           
           {combo > 0 && (
-            <div className={`text-2xl font-bold ${getComboColor()} ${comboAnimation ? 'animate-bounce scale-125' : ''} transition-all duration-300`}>
+            <div className={`text-sm sm:text-lg md:text-2xl font-bold ${getComboColor()} ${comboAnimation ? 'animate-bounce scale-125' : ''} transition-all duration-300`}>
               {getComboText()}
             </div>
           )}
@@ -419,7 +419,7 @@ export default function TapComboGame() {
       {floatingTexts.map(text => (
         <div
           key={text.id}
-          className={`absolute pointer-events-none text-2xl font-bold ${text.color} animate-float-up z-20`}
+          className={`absolute pointer-events-none text-base sm:text-lg md:text-2xl font-bold ${text.color} animate-float-up z-20`}
           style={{
             left: `${text.x}%`,
             top: `${text.y}%`,
@@ -431,7 +431,7 @@ export default function TapComboGame() {
       ))}
 
       {/* Game Area */}
-      <div className="absolute inset-0 pt-32">
+      <div className="absolute inset-0 pt-24 sm:pt-28 md:pt-32">
         {buttons.map(button => {
           const progress = button.timeLeft / button.maxTime;
           const scale = 0.9 + (progress * 0.3);
@@ -441,7 +441,7 @@ export default function TapComboGame() {
             <button
               key={button.id}
               onClick={(e) => handleButtonTap(button.id, e)}
-              className={`absolute w-20 h-20 rounded-full border-4 font-bold text-lg shadow-2xl transform transition-all duration-150 hover:scale-125 active:scale-95 ${
+              className={`absolute w-16 h-16 sm:w-18 sm:h-18 md:w-20 md:h-20 rounded-full border-3 sm:border-4 font-bold text-sm sm:text-base md:text-lg shadow-2xl transform transition-all duration-150 hover:scale-125 active:scale-95 ${
                 COLORS[button.color as keyof typeof COLORS]
               } ${isUrgent ? 'animate-wiggle' : ''}`}
               style={{
@@ -453,8 +453,8 @@ export default function TapComboGame() {
               }}
             >
               <div className="flex flex-col items-center justify-center">
-                <span className="text-2xl mb-1">{button.emoji}</span>
-                <span className="text-sm font-bold">
+                <span className="text-lg sm:text-xl md:text-2xl mb-1">{button.emoji}</span>
+                <span className="text-xs sm:text-sm font-bold">
                   {Math.ceil(button.timeLeft / 1000)}
                 </span>
               </div>
@@ -465,8 +465,8 @@ export default function TapComboGame() {
 
       {/* Mega Combo Animation */}
       {comboAnimation && (
-        <div className="absolute inset-0 pointer-events-none flex items-center justify-center z-30">
-          <div className="text-8xl font-bold bg-gradient-to-r from-yellow-400 via-pink-500 to-purple-600 bg-clip-text text-transparent animate-bounce">
+        <div className="absolute inset-0 pointer-events-none flex items-center justify-center z-30 px-4">
+          <div className="text-4xl sm:text-6xl md:text-8xl font-bold bg-gradient-to-r from-yellow-400 via-pink-500 to-purple-600 bg-clip-text text-transparent animate-bounce text-center">
             🎊 COMBO! 🎊
           </div>
         </div>
